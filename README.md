@@ -36,7 +36,10 @@ Instantiate the Insurance contract using the contract address.
 
 Use the following functions to interact with the contract:
 
-buyInsurance(insType, period, userData): Buy insurance by specifying the insurance type, period, and user details.
-claimInsurance(insType, insId, isClaimProof): Make a claim for a specific insurance policy by providing the insurance type, policy ID, and proof of claim.
-renewInsurance(insType, period, insId): Renew an existing insurance policy by extending the period.
-getInsuranceDetails(insId): Retrieve the details of an insurance policy by providing the policy ID.
+***buyInsurance(insType, period, userData)***: Buy insurance by specifying the insurance type, period, and user details.
+
+***claimInsurance(insType, insId, isClaimProof)***: Make a claim for a specific insurance policy by providing the insurance type, policy ID, and proof of claim.
+
+***renewInsurance(insType, period, insId)***: Renew an existing insurance policy by extending the period.
+
+***getInsuranceDetails(insId)***: Retrieve the details of an insurance policy by providing the policy ID.
